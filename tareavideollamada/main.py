@@ -57,3 +57,5 @@ def menu(self):
                 break
             else:
                 print("Opción inválida, intente nuevamente")
+                
+                # Nicolas Almuna, Alex Hernandez
