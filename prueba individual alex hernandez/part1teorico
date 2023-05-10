@@ -1,0 +1,52 @@
+  Alex Hernandez 
+                                    sección teórica 
+
+
+1. (4 puntos) Indique los comandos para crear subir la versión del proyecto git a un repositorio remoto. 
+R:       primero se abre una terminal en la parte superior izquierda de visual.
+Inicializa Git con el comando git init.
+Conecta tu proyecto con el comando git remote add origin URL, donde URL es la dirección de tu repositorio remoto.
+Agrega los cambios con el comando git add ..
+Confirma los cambios con el comando git commit -m "mensaje", donde “mensaje” es un mensaje descriptivo de los cambios.
+Sube los cambios al repositorio remoto con el comando git push -u origin main.
+
+
+2. (4 puntos) ¿Cómo se puede utilizar el código de un proyecto git en un repositorio remoto (git hub) en un computador local?
+R: usando el comando  git clone  https://github.com…..esto permite trabajar con el código como si estuvieras trabajando con cualquier otro proyecto local.
+
+3. (4 puntos) Si se implementa un código en python que crea un objeto de una clase abstracta, ¿Que sucede al ejecutar dicho código? 
+R:    no se puede crear un objeto de una clase abstracta y al intentarlo se producirá un error,                                                                             porque no están diseñadas para eso.
+
+4. (4 puntos) ¿Qué significa que un método tenga el decorador @abstractmethod? 
+R:   el decorador indica que es un método abstracto,lo que significa que tiene que tener subclases provenientes de una clase abstracta.
+
+
+5. (4 puntos) Indique 3 eventos que pueden ejecutarse en una interfaz gráfica de usuario. 
+R:Los eventos que puede tener el usuario es el click del mouse al seleccionar un botón, puede usar el teclado para la información detallada pedida, un evento que puede controlar a voluntad es el tamaño de la ventana.
+
+
+
+
+6.(4 puntos) ¿Que es el ciclo de eventos? 
+R: El ciclo de eventos es un proceso de Javat que maneja el código y eventos. Permite que JavaScript maneje tareas asíncronas y eventos de un hilo.
+
+
+
+7. (4 puntos) Si desde la ventana principal de un programa se lanza un objeto de clase QDialog ¿Es posible ignorarlo y seguir utilizando la ventana principal?
+R: lanzado desde la ventana principal de un programa bloqueará la interacción con la ventana principal hasta que sea cerrado
+
+
+
+8. (4 puntos) Mencione al menos 5 componentes gráficos de PyQt6 
+R:QLabel, QPushButton, QLineEdit, QComboBox y QCheckBox
+
+
+9. (4 puntos) Si se requiere de ingresar datos numéricos, que alternativas existen de 
+componentes en PyQt6 
+R: QSpinBox: es un componente para ingresar números enteros dentro de un rango especificado.
+
+
+
+10. (4 puntos) ¿Cómo es posible utilizar una interfaz creada con Qt Designer en un código fuente en python con PyQt 6?    
+R: primero tenemos que cambiar el archivo  .ui a .py con la herramienta pyuic6
+
